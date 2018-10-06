@@ -1,0 +1,64 @@
+
+body {
+    background-image: linear-gradient(to bottom right, purple, gold);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+#input-bar {
+    margin:0 auto;
+    width: 300px;
+}
+
+#input {;
+    text-align: center;
+    width: 300px;
+}
+
+#addBtn {
+    background: none;
+    border-style: none;
+    font-size: 16pt;
+    margin-top: 10px;
+}
+
+#addBtn:hover {
+    font-weight: 700;
+    margin-left: 3px;
+}
+
+.addItem {
+    margin: 0 auto;
+    margin-top: 7px;
+    border-radius: 5px;
+    height: 23px;
+    width: 700px;
+    font-size: 13pt;
+    background-color: white;
+}
+
+.delBtn {
+    font-size: 11pt;
+    background: none;
+    border-style: none;
+    position: relative;
+    top: 1px;
+}
+
+.delBtn:hover {
+    color: red;
+    margin-left: 5px;
+}
+
+.text {
+    position: relative;
+    top: 2px;
+}
+
